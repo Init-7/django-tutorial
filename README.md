@@ -26,3 +26,4 @@ Iniciar proyecto Django
 
 > django-admin startproject tutorial01
 > cd tutorial01
+> python manage.py runserver
