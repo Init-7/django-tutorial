@@ -27,3 +27,21 @@ Iniciar proyecto Django
 > django-admin startproject tutorial01
 > cd tutorial01
 > python manage.py runserver
+
+
+Habilitar Admin
+===============
+
+> python manage.py createsuperuser
+> python manage.py runserver
+
+http://localhost:8000
+
+> vim [app]/admin.py
+
+from django.contrib import admin
+from .models import [Modelname]
+
+admin.site.register([ModelName])
+
+
